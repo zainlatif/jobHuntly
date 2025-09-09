@@ -1,62 +1,72 @@
 import React from 'react';
-import './Category.css';
+import './Categories.css';
 
-const Category = () => {
+// Import logos
+import designLogo from '/src/assets/categories/finance.svg';
+import salesLogo from '/src/assets/categories/finance.svg';
+import marketingLogo from '/src/assets/categories/finance.svg';
+import financeLogo from '/src/assets/categories/finance.svg';
+import techLogo from '/src/assets/categories/finance.svg';
+import engineeringLogo from '/src/assets/categories/finance.svg';
+import businessLogo from '/src/assets/categories/finance.svg';
+import hrLogo from '/src/assets/categories/finance.svg';
+
+const Categories = () => {
   const categories = [
     {
       id: 1,
       title: 'Design',
       jobsAvailable: 235,
-      icon: '🎨',
+      icon: designLogo,
       isHighlighted: false
     },
     {
       id: 2,
       title: 'Sales',
       jobsAvailable: 756,
-      icon: '📊',
+      icon: salesLogo,
       isHighlighted: false
     },
     {
       id: 3,
       title: 'Marketing',
       jobsAvailable: 140,
-      icon: '📢',
+      icon: marketingLogo,
       isHighlighted: true
     },
     {
       id: 4,
       title: 'Finance',
       jobsAvailable: 325,
-      icon: '💰',
+      icon: financeLogo,
       isHighlighted: false
     },
     {
       id: 5,
       title: 'Technology',
       jobsAvailable: 496,
-      icon: '💻',
+      icon: techLogo,
       isHighlighted: false
     },
     {
       id: 6,
       title: 'Engineering',
       jobsAvailable: 542,
-      icon: '⚙️',
+      icon: engineeringLogo,
       isHighlighted: false
     },
     {
       id: 7,
       title: 'Business',
       jobsAvailable: 271,
-      icon: '💼',
+      icon: businessLogo,
       isHighlighted: false
     },
     {
       id: 8,
       title: 'Human Resource',
       jobsAvailable: 346,
-      icon: '👥',
+      icon: hrLogo,
       isHighlighted: false
     }
   ];
@@ -79,7 +89,7 @@ const Category = () => {
             className={`category-card ${category.isHighlighted ? 'highlighted' : ''}`}
           >
             <div className="category-icon">
-              {category.icon}
+              <img src={category.icon} alt={category.title} />
             </div>
             <h3 className="category-name">{category.title}</h3>
             <p className="jobs-count">
@@ -92,4 +102,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default Categories;
