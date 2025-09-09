@@ -19,6 +19,7 @@ const Navbar = () => {
       {/* Right: Buttons */}
       <div className="navbar-actions">
         <a href="#" className="login">Login</a>
+        <div className="line"></div>
         <button className="signup">Sign Up</button>
       </div>
     </nav>

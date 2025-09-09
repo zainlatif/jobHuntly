@@ -41,6 +41,11 @@
 .navbar-links a:hover {
   color: #fff;
 }
+.line{
+  background-color: grey;
+  width: 3px;
+  height: 30px
+}
 
 /* Actions */
 .navbar-actions {
@@ -61,16 +66,14 @@
 }
 
 .navbar-actions .signup {
-  background-color: #202430 /* purple/blue */
-  color: #fff;
   border: none;
   padding: 8px 18px;
-  border-radius: 6px;
   font-size: 15px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .navbar-actions .signup:hover {
-  background-color: #202430 /* darker shade */
+  background-color: #4640DE;
+  color: white;
 }
