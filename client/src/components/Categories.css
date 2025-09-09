@@ -1,0 +1,149 @@
+/* Category.css */
+.category-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #1a1a2e;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.category-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.highlight-text {
+  color: #6366f1;
+}
+
+.show-all-btn {
+  background: transparent;
+  color: #6366f1;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.show-all-btn:hover {
+  opacity: 0.8;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.category-card {
+  background: #f8f9fa;
+  border-radius: 16px;
+  padding: 32px 24px;
+  color: #1a1a2e;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.category-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, transparent 0%, rgba(99, 102, 241, 0.05) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.category-card:hover::before {
+  opacity: 1;
+}
+
+.category-card.highlighted {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+}
+
+.category-card.highlighted::before {
+  display: none;
+}
+
+.category-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.category-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.jobs-count {
+  font-size: 0.95rem;
+  margin: 0;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+.category-card.highlighted .jobs-count {
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .category-container {
+    padding: 24px 16px;
+  }
+  
+  .category-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .category-title {
+    font-size: 2rem;
+  }
+  
+  .category-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .category-card {
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-title {
+    font-size: 1.75rem;
+  }
+  
+  .category-icon {
+    font-size: 2rem;
+  }
+  
+  .category-name {
+    font-size: 1.125rem;
+  }
+}

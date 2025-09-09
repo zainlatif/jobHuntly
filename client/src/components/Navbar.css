@@ -1,0 +1,76 @@
+/* General navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #0a0f29; /* dark background */
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-logo h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Links */
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #cfcfcf;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #fff;
+}
+
+/* Actions */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-actions .login {
+  color: #cfcfcf;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-actions .login:hover {
+  color: #fff;
+}
+
+.navbar-actions .signup {
+  background-color: #202430 /* purple/blue */
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-actions .signup:hover {
+  background-color: #202430 /* darker shade */
+}
