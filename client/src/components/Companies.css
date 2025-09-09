@@ -51,9 +51,8 @@
 /* Category.css */
 .category-container {
   padding: 40px 20px;
-  max-width: 1200px;
   margin: 0 auto;
-  background-color: #1a1a2e;
+  background-color: #202430;
   color: white;
   font-family: sans-serif;
 }

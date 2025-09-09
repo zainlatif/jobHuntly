@@ -1,13 +1,14 @@
 .categories {
-  width: 1440px;
-  height: 197px;
-  padding: 48px 122px 48px 124px;
+  width: 100%;                  /* full width instead of fixed 1440px */
+  max-width: 1440px;            /* optional: keeps design aligned on big screens */
+  margin: 0 auto;               /* centers the content */
+  padding: 48px 122px;          /* same figma padding */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 32px;
-  background-color: #ffffff; /* change if you want a background */
+  background-color: transparent; /* removed white background */
 }
 
 .categories h2 {
@@ -23,12 +24,12 @@
   gap: 32px;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; /* allows wrapping if too many logos */
+  flex-wrap: wrap; /* logos wrap on smaller screens */
 }
 
 .categories-logos img {
-  height: 60px;         /* logo size */
-  object-fit: contain;  /* keeps original ratio */
+  height: 60px;
+  object-fit: contain;
   transition: transform 0.3s ease, opacity 0.3s ease;
   cursor: pointer;
 }
@@ -36,4 +37,11 @@
 .categories-logos img:hover {
   transform: scale(1.1);
   opacity: 0.8;
+}
+
+/* 📱 Responsive fix */
+@media (max-width: 768px) {
+  .categories {
+    padding: 24px; /* reduce padding on small screens */
+  }
 }
