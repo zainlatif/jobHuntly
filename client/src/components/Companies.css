@@ -1,3 +1,53 @@
+/* Companies Section */
+.companies {
+  padding: 60px 40px;
+  background: #202430;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.companies h2 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 32px;
+  text-align: start;
+  color: grey;
+}
+
+.companies-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.company-logo {
+  border-radius: 12px;
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.company-logo:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 6px 24px rgba(99,102,241,0.15);
+}
+
+.company-logo img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: opacity 0.3s;
+}
+
+.company-logo:hover img {
+  opacity: 1;
+}
 /* Category.css */
 .category-container {
   padding: 40px 20px;
@@ -5,7 +55,7 @@
   margin: 0 auto;
   background-color: #1a1a2e;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: sans-serif;
 }
 
 .category-header {
