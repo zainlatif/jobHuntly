@@ -2,14 +2,14 @@ import React from 'react';
 import './Categories.css';
 
 // Import logos
-import designLogo from '/src/assets/categories/finance.svg';
-import salesLogo from '/src/assets/categories/finance.svg';
-import marketingLogo from '/src/assets/categories/finance.svg';
-import financeLogo from '/src/assets/categories/finance.svg';
-import techLogo from '/src/assets/categories/finance.svg';
-import engineeringLogo from '/src/assets/categories/finance.svg';
-import businessLogo from '/src/assets/categories/finance.svg';
-import hrLogo from '/src/assets/categories/finance.svg';
+import designLogo from '../assets/categories/finance.svg';
+import salesLogo from '../assets/categories/finance.svg';
+import marketingLogo from '../assets/categories/finance.svg';
+import financeLogo from '../assets/categories/finance.svg';
+import techLogo from '../assets/categories/finance.svg';
+import engineeringLogo from '../assets/categories/finance.svg';
+import businessLogo from '../assets/categories/finance.svg';
+import hrLogo from '../assets/categories/finance.svg';
 
 const Categories = () => {
   const categories = [
