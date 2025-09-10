@@ -8,19 +8,19 @@ const Companies = () => {
 
       <div className="companies-logos">
         <div className="company-logo">
-          <img src="../assets/companies/amd.svg" alt="AMD" />
+          <img src="/assets/companies/amd.svg" alt="AMD" />
         </div>
         <div className="company-logo">
-          <img src="../assets/companies/intel.svg" alt="Intel" />
+          <img src="/assets/companies/intel.svg" alt="Intel" />
         </div>
         <div className="company-logo">
-          <img src="../assets/companies/talkit.svg" alt="TalkIT" />
+          <img src="/assets/companies/talkit.svg" alt="TalkIT" />
         </div>
         <div className="company-logo">
-          <img src="../assets/companies/tesla.svg" alt="Tesla" />
+          <img src="/assets/companies/tesla.svg" alt="Tesla" />
         </div>
         <div className="company-logo">
-          <img src="../assets/companies/vodafone.svg" alt="Vodafone" />
+          <img src="/assets/companies/vodafone.svg" alt="Vodafone" />
         </div>
       </div>
     </section>

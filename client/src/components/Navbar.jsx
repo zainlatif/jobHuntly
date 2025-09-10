@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Left: Logo */}
       <div className="navbar-logo">
-        <span className="logo-icon"><img src="/src/assets/companies/icon.svg" alt="logo" /></span> {/* replace with real logo/image */}
+        <span className="logo-icon"><img src="/assets/companies/icon.svg" alt="logo" /></span> {/* replace with real logo/image */}
         <h2>JobHuntly</h2>
       </div>
 
