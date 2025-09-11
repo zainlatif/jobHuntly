@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Category from "./components/Categories";
 import Feature from "./components/Feature";
 import Dashboard from "./components/Dashboard";
+import LatestJob from "./components/latestjob";
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Category />
       <Dashboard />
       <Feature />
+      <LatestJob />
       <Footer />
     </div>
   );
