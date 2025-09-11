@@ -5,15 +5,13 @@
   color: #FFFFFF;
   font-family: Arial, sans-serif;
 }
-
 .companies h2 {
   font-size: 18px;
   font-weight: 200;
   margin-bottom: 32px;
   text-align: start;
-  color: grey;
+  color: #FFFFFF;
 }
-
 .companies-logos {
   display: flex;
   justify-content: center;
@@ -76,7 +74,7 @@
 
 .show-all-btn {
   background: transparent;
-  color: #6366f1;
+  color: #26A4FF;
   border: none;
   font-size: 1rem;
   cursor: pointer;
