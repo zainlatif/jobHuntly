@@ -21,8 +21,14 @@ const Hero = () => {
 
         {/* Search Box */}
         <div className="search-box">
+          <div className="search-content">
+            <img src="/assets/companies/search.svg" alt="search_icon" />
           <input type="text" placeholder="Job title or keyword" />
+          </div>
+          <div className="location-content">
+            <img src="/assets/companies/location.svg" alt="location_icon" />
           <input type="text" placeholder="Location, e.g. Florence, Italy" />
+          </div>
           <button>Search my job</button>
         </div>
 
