@@ -5,7 +5,8 @@ import Companies from "./components/Companies";
 import Footer from "./components/Footer";
 import Category from "./components/Categories";
 import Feature from "./components/Feature";
-import Dashboard from "./components/dashboard";
+import Dashboard from "./components/Dashboard";
+
 
 
 function App() {
@@ -18,7 +19,6 @@ function App() {
       <Dashboard />
       <Feature />
       <Footer />
-
     </div>
   );
 }
