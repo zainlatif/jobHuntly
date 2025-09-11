@@ -40,6 +40,7 @@
   padding: 10px;
   border-radius: 8px;
   margin-bottom: 20px;
+  max-width: 900px;
 }
 
 .search-box input {
@@ -82,3 +83,27 @@
 .popular span:hover {
   color: #6366f1;
 }
+@media (max-width: 768px) {
+  .search-box {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 4px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-box {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 2px;
+    max-width: 100%;
+  }
+  .search-box input,
+  .search-box button {
+    width: 100%;
+    border-radius: 6px;
+    margin: 0;
+  }
+}
+  

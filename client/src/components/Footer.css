@@ -2,8 +2,8 @@
 .footer {
   background-color: #202430;
   color: #8b92a8;
-  padding: 60px 0 20px 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  padding: 60px 40px;
+  font-family: sans-serif;
 }
 .footer-container {
   max-width: 1200px;

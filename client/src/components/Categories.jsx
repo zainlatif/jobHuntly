@@ -74,9 +74,9 @@ const Categories = () => {
   return (
     <div className="category-container">
       <div className="category-header">
-        <h1 className="category-title">
+        <h2 className="category-title">
           Explore by <span className="highlight-text">category</span>
-        </h1>
+        </h2>
         <button className="show-all-btn">
           Show all jobs →
         </button>

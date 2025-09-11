@@ -1,16 +1,25 @@
 .categories {
   width: 100%;                  /* full width instead of fixed 1440px */
-  max-width: 1440px;            /* optional: keeps design aligned on big screens */
+  max-width: 1200px;            /* optional: keeps design aligned on big screens */
   margin: 0 auto;               /* centers the content */
-  padding: 48px 122px;          /* same figma padding */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 32px;
-  background-color: transparent; /* removed white background */
+  
 }
-
+.category-container{
+  padding: 60px 40px;
+}
+.categories-title {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+.highlight-text {
+  color: #4fbcff;
+}
 .categories h2 {
   font-size: 24px;
   font-weight: 600;
