@@ -102,9 +102,8 @@
   flex: 1;
   padding: 12px 16px;
   border: 1px solid #374151;
-  background-color: #374151;
+  background-color: #ffffff;
   color: white;
-  border-radius: 8px 0 0 8px;
   font-size: 14px;
   outline: none;
   transition: border-color 0.3s ease;
@@ -120,10 +119,9 @@
 
 .subscribe-btn {
   padding: 12px 24px;
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  background: #4640DE;
   color: white;
   border: none;
-  border-radius: 0 8px 8px 0;
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
@@ -169,7 +167,7 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 8px;
+  border-radius: 50px;
   background-color: #374151;
   color: #8b92a8;
   text-decoration: none;

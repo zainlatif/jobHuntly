@@ -1,49 +1,48 @@
-.feature-section {
+.latest-section {
   background: #232635;
   padding: 60px 40px;
   color: #fff;
   font-family: sans-serif;
 }
 
-.feature-header {
+.latest-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 32px;
 }
 
-.feature-title-main {
+.latest-title-main {
   font-size: 48px;
   font-weight: 600;
   text-align: center;
   color: white;
 }
-.feature-title-accent {
+.latest-title-accent {
   color: #4fbcff;
   font-weight: 600;
   font-size: 48px;
 }
 
-.feature-show-all {
+.latest-show-all {
   color: #4fbcff;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
   transition: opacity 0.2s;
 }
-.feature-show-all:hover {
+.latest-show-all:hover {
   opacity: 0.7;
 }
 
-.feature-grid {
+.latest-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
   gap: 32px;
 }
 
-.feature-card {
+.latest-card {
   background: #ffffff;
-  border-radius: 16px;
   box-shadow: 0 4px 24px rgba(99, 102, 241, 0.07);
   padding: 28px 22px 22px 22px;
   display: flex;
@@ -51,18 +50,18 @@
   min-height: 260px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
-.feature-card:hover {
+.latest-card:hover {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 8px 32px rgba(99, 102, 241, 0.13);
 }
 
-.feature-card-header {
+.latest-card-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 18px;
 }
-.feature-logo img {
+.latest-logo img {
   width: 38px;
   height: 38px;
   object-fit: contain;
@@ -71,7 +70,7 @@
   padding: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
-.feature-type {
+.latest-type {
   font-size: 0.85rem;
   color: #6366f1;
   background: #f3f4f6;
@@ -81,13 +80,13 @@
   border: 1px solid #e5e7eb;
 }
 
-.feature-job-title {
+.latest-job-title {
   font-size: 1.1rem;
   font-weight: 700;
   margin: 0 0 6px 0;
   color: #25324b;
 }
-.feature-company-loc {
+.latest-company-loc {
   font-size: 0.97rem;
   color: #515b6f;
   margin-bottom: 10px;
@@ -95,28 +94,28 @@
   align-items: center;
   gap: 6px;
 }
-.feature-company {
+.latest-company {
   font-weight: 600;
 }
-.feature-dot {
+.latest-dot {
   font-size: 1.2em;
   color: #6366f1;
 }
-.feature-location {
+.latest-location {
   font-weight: 400;
 }
-.feature-desc {
+.latest-desc {
   font-size: 0.98rem;
   color: #7c8493;
   margin-bottom: 16px;
   min-height: 38px;
 }
-.feature-tags {
+.latest-tags {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
-.feature-tag {
+.latest-tag {
   display: inline-block;
   font-size: 0.92rem;
   font-weight: 600;
@@ -129,99 +128,99 @@
 }
 
 @media (max-width: 900px) {
-  .feature-header {
+  .latest-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
   }
-  .feature-grid {
+  .latest-grid {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
 }
 @media (max-width: 600px) {
-  .feature-section {
+  .latest-section {
     padding: 20px 12px 10px 12px;
   }
-  .feature-header h2 {
+  .latest-header h2 {
     font-size: 1.5rem;
   }
-  .feature-title-main,
-  .feature-title-accent {
+  .latest-title-main,
+  .latest-title-accent {
     font-size: 1.5rem;
   }
-  .feature-grid {
+  .latest-grid {
     grid-template-columns: 1fr;
     gap: 10px;
   }
-  .feature-card {
+  .latest-card {
     padding: 12px 6px 10px 6px;
     min-height: 180px;
   }
-  .feature-card-header {
+  .latest-card-header {
     margin-bottom: 10px;
   }
-  .feature-logo img {
+  .latest-logo img {
     width: 28px;
     height: 28px;
   }
-  .feature-job-title {
+  .latest-job-title {
     font-size: 1rem;
   }
-  .feature-type {
+  .latest-type {
     font-size: 0.8rem;
     padding: 3px 8px;
   }
-  .feature-company-loc {
+  .latest-company-loc {
     font-size: 0.9rem;
   }
-  .feature-desc {
+  .latest-desc {
     font-size: 0.9rem;
     min-height: 24px;
   }
-  .feature-tag {
+  .latest-tag {
     font-size: 0.85rem;
     padding: 3px 10px;
   }
 }
 @media (width: 500px) {
-  .feature-section {
+  .latest-section {
     padding: 20px 0 10px 0;
   }
-  .feature-header h2 {
+  .latest-header h2 {
     font-size: 1.5rem;
   }
-  .feature-title-main,
-  .feature-title-accent {
+  .latest-title-main,
+  .latest-title-accent {
     font-size: 1.5rem;
   }
   
-  .feature-card {
+  .latest-card {
     padding: 12px 6px 10px 6px;
     min-height: 180px;
   }
-  .feature-card-header {
+  .latest-card-header {
     margin-bottom: 10px;
   }
-  .feature-logo img {
+  .latest-logo img {
     width: 28px;
     height: 28px;
   }
-  .feature-job-title {
+  .latest-job-title {
     font-size: 1rem;
   }
-  .feature-type {
+  .latest-type {
     font-size: 0.8rem;
     padding: 3px 8px;
   }
-  .feature-company-loc {
+  .latest-company-loc {
     font-size: 0.9rem;
   }
-  .feature-desc {
+  .latest-desc {
     font-size: 0.9rem;
     min-height: 24px;
   }
-  .feature-tag {
+  .latest-tag {
     font-size: 0.85rem;
     padding: 1px 5px;
   }

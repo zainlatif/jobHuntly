@@ -22,7 +22,6 @@
 }
 
 .company-logo {
-  border-radius: 12px;
   padding: 18px 28px;
   display: flex;
   align-items: center;
@@ -93,7 +92,6 @@
 
 .category-card {
   background: #f8f9fa;
-  border-radius: 16px;
   padding: 32px 24px;
   color: #1a1a2e;
   cursor: pointer;

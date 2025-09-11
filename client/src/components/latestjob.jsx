@@ -4,13 +4,13 @@ import "./latestjob.css";
 const latestJobs = [
   {
     id: 1,
-    companyLogo: "/assets/companies/revolut.svg",
-    company: "Revolut",
-    title: "Email Marketing",
-    location: "Madrid, Spain",
+    companyLogo: "/assets/companies/Nomad.svg",
+    company: "Nomad",
+    title: "Social Media Assistant",
+    location: "Paris, Spain",
     type: "Full Time",
     description: "Revolut is looking for Email Marketing to help team manage campaigns...",
-    tags: ["Marketing", "Design"],
+    tags: ["Full-Time","Marketing", "Design"],
   },
   {
     id: 2,
@@ -93,37 +93,37 @@ const tagColors = {
 
 const LatestJob = () => {
   return (
-    <section className="feature-section">
+    <section className="latest-section">
       <div className="container">
-        <div className="feature-header">
+        <div className="latest-header">
           <h2>
-            <span className="feature-title-main">Latest</span>
-            <span className="feature-title-accent"> jobs</span>
+            <span className="latest-title-main">Latest</span>
+            <span className="latest-title-accent"> jobs</span>
           </h2>
-          <a href="#" className="feature-show-all">Show all jobs →</a>
+          <a href="#" className="latest-show-all">Show all jobs →</a>
         </div>
-        <div className="feature-grid">
+        <div className="latest-grid">
           {latestJobs.map((job) => (
-            <div className="feature-card" key={job.id}>
-              <div className="feature-card-header">
-                <div className="feature-logo">
+            <div className="latest-card" key={job.id}>
+              <div className="latest-card-header">
+                <div className="latest-logo">
                   {/* fallback if logo not found */}
                   <img src={job.companyLogo} alt={job.company} onError={e => e.target.style.display='none'} />
                 </div>
-                <span className="feature-type">{job.type}</span>
+                <span className="latest-type">{job.type}</span>
               </div>
-              <div className="feature-card-body">
-                <h3 className="feature-job-title">{job.title}</h3>
-                <div className="feature-company-loc">
-                  <span className="feature-company">{job.company}</span>
-                  <span className="feature-dot">·</span>
-                  <span className="feature-location">{job.location}</span>
+              <div className="latest-card-body">
+                <h3 className="latest-job-title">{job.title}</h3>
+                <div className="latest-company-loc">
+                  <span className="latest-company">{job.company}</span>
+                  <span className="latest-dot">·</span>
+                  <span className="latest-location">{job.location}</span>
                 </div>
-                <p className="feature-desc">{job.description}</p>
-                <div className="feature-tags">
+                <p className="latest-desc">{job.description}</p>
+                <div className="latest-tags">
                   {job.tags.map((tag) => (
                     <span
-                      className="feature-tag"
+                      className="latest-tag"
                       key={tag}
                       style={{ background: tagColors[tag] || '#e5e7eb', color: '#202430' }}
                     >
