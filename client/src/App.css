@@ -1,0 +1,19 @@
+
+/* Universal container for all main sections */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 24px;
+	padding-right: 24px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 100%;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+}

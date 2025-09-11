@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="footer-brand">
             <div className="logo">
-              <span className="logo-icon">🎯</span>
+              <span className="logo-icon"><img src="/assets/companies/icon.svg" alt="" /></span>
               <span className="logo-text">JobHuntly</span>
             </div>
             <p className="brand-description">
