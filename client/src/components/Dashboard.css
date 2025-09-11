@@ -1,6 +1,6 @@
 .dashboard {
     background-color: #202430;
-    min-height: 100vh;
+    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
 }
 .dashboard img {
     display: block;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 10px auto;
     max-width: 90vw;
     width: 100%;
     height: auto;
@@ -22,6 +22,5 @@
     .dashboard img {
         max-width: 98vw;
         margin-bottom: 20px;
-        border-radius: 8px;
     }
 }
