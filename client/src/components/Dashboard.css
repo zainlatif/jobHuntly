@@ -1,0 +1,27 @@
+.dashboard {
+    background-color: #202430;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.dashboard img {
+    display: block;
+    margin: 0 auto 40px auto;
+    max-width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(99,102,241,0.07);
+}
+@media (max-width: 600px) {
+    .dashboard {
+        padding: 16px 0;
+    }
+    .dashboard img {
+        max-width: 98vw;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+}

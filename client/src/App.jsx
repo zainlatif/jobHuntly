@@ -5,6 +5,7 @@ import Companies from "./components/Companies";
 import Footer from "./components/Footer";
 import Category from "./components/Categories";
 import Feature from "./components/Feature";
+import Dashboard from "./components/dashboard";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Companies />
       <Category />
+      <Dashboard />
       <Feature />
       <Footer />
 
