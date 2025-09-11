@@ -30,7 +30,7 @@
 
 .hero p {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #cfcfcf;
   margin-bottom: 30px;
   max-width: 600px;
 }
@@ -82,11 +82,11 @@
 .popular {
   margin-top: 15px;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #cfcfcf;
 }
 
 .popular span {
-  color: #FFFFFF;
+  color: #cfcfcf;
   cursor: pointer;
   transition: color 0.3s ease;
 }
