@@ -3,13 +3,13 @@ import './Categories.css';
 
 // Import logos
 import designLogo from '../assets/categories/finance.svg';
-import salesLogo from '../assets/categories/finance.svg';
-import marketingLogo from '../assets/categories/finance.svg';
+import salesLogo from '../assets/categories/sales.svg';
+import marketingLogo from '../assets/categories/marketing.svg';
 import financeLogo from '../assets/categories/finance.svg';
-import techLogo from '../assets/categories/finance.svg';
-import engineeringLogo from '../assets/categories/finance.svg';
-import businessLogo from '../assets/categories/finance.svg';
-import hrLogo from '../assets/categories/finance.svg';
+import techLogo from '../assets/categories/technology.svg';
+import engineeringLogo from '../assets/categories/Engineering.svg';
+import businessLogo from '../assets/categories/business.svg';
+import hrLogo from '../assets/categories/humanresource.svg';
 
 const Categories = () => {
   const categories = [
