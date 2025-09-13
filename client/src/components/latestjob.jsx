@@ -10,7 +10,7 @@ const latestJobs = [
     location: "Paris, Spain",
     type: "Full Time",
     description: "Revolut is looking for Email Marketing to help team manage campaigns...",
-    tags: ["Full-Time","Marketing", "Design"],
+    tags: ["Marketing", "Design"],
   },
   {
     id: 2,
@@ -110,7 +110,6 @@ const LatestJob = () => {
                   {/* fallback if logo not found */}
                   <img src={job.companyLogo} alt={job.company} onError={e => e.target.style.display='none'} />
                 </div>
-                <span className="latest-type">{job.type}</span>
               </div>
               <div className="latest-card-body">
                 <h3 className="latest-job-title">{job.title}</h3>
@@ -119,13 +118,13 @@ const LatestJob = () => {
                   <span className="latest-dot">·</span>
                   <span className="latest-location">{job.location}</span>
                 </div>
-                <p className="latest-desc">{job.description}</p>
                 <div className="latest-tags">
+                  <span className="latest-tag">{job.type}</span>
                   {job.tags.map((tag) => (
                     <span
                       className="latest-tag"
                       key={tag}
-                      style={{ background: tagColors[tag] || '#e5e7eb', color: '#202430' }}
+                      style={{ background: tagColors[tag] || '#e5e7eb', color: '#202430',border: '1px solid', borderColor: tagColors[tag] }}
                     >
                       {tag}
                     </span>
