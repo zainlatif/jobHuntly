@@ -85,7 +85,7 @@ const jobs = [
 ];
 
 const tagColors = {
-  Marketing: "#fbbf24",
+  Marketing: "#FFB836",
   Design: "#34d399",
   Business: "#6366f1",
   Technology: "#f87171",
@@ -125,7 +125,7 @@ const Feature = () => {
                     <span
                       className="feature-tag"
                       key={tag}
-                      style={{ background: tagColors[tag] || '#e5e7eb', color: '#202430' }}
+                      style={{ background: tagColors[tag]+'1a' , color: tagColors[tag]}}
                     >
                       {tag}
                     </span>

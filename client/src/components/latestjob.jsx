@@ -100,7 +100,7 @@ const LatestJob = () => {
         <div className="latest-header">
           <h2>
             <span className="latest-title-main">Latest</span>
-            <span className="latest-title-accent"> jobs</span>
+            <span className="latest-title-accent"> jobs open</span>
           </h2>
           <a href="#" className="latest-show-all">
             Show all jobs →

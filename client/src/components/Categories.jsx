@@ -1,5 +1,5 @@
 import React from 'react';
-import './Categories.css';
+import './Categories.fixed.css';
 
 // Import logos
 import designLogo from '../assets/categories/finance.svg';
@@ -86,7 +86,7 @@ const Categories = () => {
         {categories.map((category) => (
           <div
             key={category.id}
-            className={`category-card ${category.isHighlighted ? 'highlighted' : ''}`}
+            className={`category-card${category.isHighlighted ? ' category-card--highlighted' : ''}`}
           >
             <div className="category-icon">
               <img src={category.icon} alt={category.title} />

@@ -2,7 +2,7 @@
   background: #232635;
   padding: 60px 40px;
   color: #fff;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .feature-header {
@@ -17,6 +17,9 @@
   font-weight: 600;
   text-align: center;
   color: white;
+}
+.feature-title-main, .feature-title-accent{
+  font-family: "Montserrat", sans-serif;
 }
 .feature-title-accent {
   color: #4fbcff;
@@ -62,8 +65,8 @@
   margin-bottom: 18px;
 }
 .feature-logo img {
-  width: 38px;
-  height: 38px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
   border-radius: 8px;
   background: #fff;
@@ -71,24 +74,22 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 .feature-type {
-  font-size: 0.85rem;
+  font-size: 16px;
   color: #6366f1;
-  background: #f3f4f6;
-  border-radius: 6px;
-  padding: 4px 12px;
+  padding: 5px 12px;
   font-weight: 600;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #6366f1;
 }
 
 .feature-job-title {
   font-size: 1.1rem;
   font-weight: 700;
   margin: 0 0 6px 0;
-  color: #25324b;
+  color: #25324B;
 }
 .feature-company-loc {
   font-size: 0.97rem;
-  color: #515b6f;
+  color: #7C8493;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
@@ -106,7 +107,7 @@
 }
 .feature-desc {
   font-size: 0.98rem;
-  color: #7c8493;
+  color: #7C8493;
   margin-bottom: 16px;
   min-height: 38px;
 }
@@ -116,14 +117,11 @@
   flex-wrap: wrap;
 }
 .feature-tag {
-  display: inline-block;
   font-size: 0.92rem;
   font-weight: 600;
-  border-radius: 6px;
-  padding: 4px 14px;
+  border-radius: 25px;
+  padding: 10px 16px;
   margin-top: 2px;
-  background: #e5e7eb;
-  color: #202430;
   letter-spacing: 0.01em;
 }
 

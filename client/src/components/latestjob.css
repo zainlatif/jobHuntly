@@ -1,10 +1,12 @@
+
 .latest-section {
   background: #232635;
   padding: 60px 40px;
   color: #fff;
-  font-family: sans-serif;
 }
-
+.latest-title-main, .latest-title-accent{
+  font-family: "Montserrat", sans-serif;
+}
 .latest-header {
   display: flex;
   justify-content: space-between;
@@ -164,7 +166,7 @@
   }
   .latest-card {
     padding: 12px 6px 10px 6px;
-    min-height: 180px;
+    min-height: 100px;
   }
   .latest-card-header {
     margin-bottom: 10px;
@@ -177,19 +179,17 @@
     font-size: 1rem;
   }
   .latest-type {
-    font-size: 0.8rem;
-    padding: 3px 8px;
+    font-size: 0.7rem;
   }
   .latest-company-loc {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .latest-desc {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     min-height: 24px;
   }
   .latest-tag {
-    font-size: 0.85rem;
-    padding: 3px 10px;
+    font-size: 0.7rem;
   }
 }
 @media (width: 500px) {
@@ -227,7 +227,7 @@
   }
   .latest-desc {
     font-size: 0.9rem;
-    min-height: 24px;
+    min-height: 20px;
   }
   .latest-tag {
     font-size: 0.85rem;

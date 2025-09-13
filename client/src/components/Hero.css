@@ -1,11 +1,10 @@
 .hero {
   background-color: #202430; /* same as navbar */
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 60px 40px;
   text-align: left;
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
 .hero-content {
   max-width: 800px;
 }
@@ -16,16 +15,16 @@
   font-weight: 700;
   margin-bottom: 20px;
 }
-.hero-title img{
+.hero-title img {
   margin-bottom: 10px;
   width: 50%;
 }
 .hero .highlight {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero .number {
-  color: #26A4FF; /* blue highlight */
+  color: #26a4ff; /* blue highlight */
 }
 
 .hero p {
@@ -54,8 +53,8 @@
 }
 
 .search-box button {
-  background-color: #4640DE;
-  color: #FFFFFF;
+  background-color: #4640de;
+  color: #ffffff;
   border: none;
   padding: 10px 18px;
   font-size: 15px;
@@ -66,7 +65,8 @@
 .search-box button:hover {
   background-color: #4f46e5;
 }
-.search-content, .location-content {
+.search-content,
+.location-content {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -100,6 +100,14 @@
     gap: 10px;
     padding: 10px 4px;
     max-width: 100%;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero p {
+    font-size: 16px;
   }
 }
 
@@ -117,4 +125,3 @@
     margin: 0;
   }
 }
-  
