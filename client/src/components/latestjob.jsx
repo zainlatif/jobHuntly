@@ -9,7 +9,8 @@ const latestJobs = [
     title: "Social Media Assistant",
     location: "Paris, Spain",
     type: "Full Time",
-    description: "Revolut is looking for Email Marketing to help team manage campaigns...",
+    description:
+      "Revolut is looking for Email Marketing to help team manage campaigns...",
     tags: ["Marketing", "Design"],
   },
   {
@@ -29,7 +30,8 @@ const latestJobs = [
     title: "Email Marketing",
     location: "Berlin, Germany",
     type: "Full Time",
-    description: "Pitch is looking for Customer Manager to join marketing team...",
+    description:
+      "Pitch is looking for Customer Manager to join marketing team...",
     tags: ["Marketing"],
   },
   {
@@ -39,7 +41,8 @@ const latestJobs = [
     title: "Visual Designer",
     location: "Granada, Spain",
     type: "Full Time",
-    description: "Blinkist is looking for Visual Designer to help team design...",
+    description:
+      "Blinkist is looking for Visual Designer to help team design...",
     tags: ["Design"],
   },
   {
@@ -85,12 +88,11 @@ const latestJobs = [
 ];
 
 const tagColors = {
-  Marketing: "#fbbf24",
+  Marketing: "#FFB836",
   Design: "#34d399",
   Business: "#6366f1",
   Technology: "#f87171",
 };
-
 const LatestJob = () => {
   return (
     <section className="latest-section">
@@ -100,7 +102,9 @@ const LatestJob = () => {
             <span className="latest-title-main">Latest</span>
             <span className="latest-title-accent"> jobs</span>
           </h2>
-          <a href="#" className="latest-show-all">Show all jobs →</a>
+          <a href="#" className="latest-show-all">
+            Show all jobs →
+          </a>
         </div>
         <div className="latest-grid">
           {latestJobs.map((job) => (
@@ -108,7 +112,11 @@ const LatestJob = () => {
               <div className="latest-card-header">
                 <div className="latest-logo">
                   {/* fallback if logo not found */}
-                  <img src={job.companyLogo} alt={job.company} onError={e => e.target.style.display='none'} />
+                  <img
+                    src={job.companyLogo}
+                    alt={job.company}
+                    onError={(e) => (e.target.style.display = "none")}
+                  />
                 </div>
               </div>
               <div className="latest-card-body">
@@ -119,12 +127,16 @@ const LatestJob = () => {
                   <span className="latest-location">{job.location}</span>
                 </div>
                 <div className="latest-tags">
-                  <span className="latest-tag">{job.type}</span>
+                  <span className="jobtype">{job.type}</span>
                   {job.tags.map((tag) => (
                     <span
                       className="latest-tag"
                       key={tag}
-                      style={{ background: tagColors[tag] || '#e5e7eb', color: '#202430',border: '1px solid', borderColor: tagColors[tag] }}
+                      style={{
+                        color: tagColors[tag],
+                        border: "2px solid",
+                        borderColor: tagColors[tag],
+                      }}
                     >
                       {tag}
                     </span>
